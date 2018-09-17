@@ -1,0 +1,39 @@
+/*General*/
+body{
+    font-family: cursive;
+}
+.btn{ 
+    position: relative;
+    background: salmon;
+    box-sizing: border-box;
+}
+.main{
+    position: relative;
+}
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+/*dropdown*/
+.content{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.down{
+    display: none;
+    position: absolute;
+    
+}
+.content:hover .down{
+    height: 70px;
+    display: block;
+    background: gray;
+    padding: 5px;
+}
