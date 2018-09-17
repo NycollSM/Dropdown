@@ -4,7 +4,7 @@ body{
 }
 .btn{ 
     position: relative;
-    background: salmon;
+    background: black;
     box-sizing: border-box;
 }
 .main{
@@ -15,7 +15,8 @@ li{
 }
 a {
     text-decoration: none;
-    color: blue;
+    color: white;
+    
 }
 /*dropdown*/
 .content{
@@ -32,7 +33,7 @@ a {
     
 }
 .content:hover .down{
-    height: 70px;
+    
     display: block;
     background: gray;
     padding: 5px;
