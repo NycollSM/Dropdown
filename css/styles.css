@@ -1,21 +1,27 @@
 /*General*/
 body{
-    font-family: cursive;
+    font-family: sans-serif;
 }
 .btn{ 
     position: relative;
     background: black;
+    height: 50px;
+    padding: 5px;
     box-sizing: border-box;
 }
 .main{
     position: relative;
+    
+    text-align: center;
 }
 li{
-    list-style: none;
+    list-style: none;    
+    
 }
 a {
     text-decoration: none;
     color: white;
+    margin-left: 20px;
     
 }
 /*dropdown*/
@@ -32,11 +38,22 @@ a {
 .down{
     display: none;
     position: absolute;
+    padding: 5px;  
     
 }
 .content:hover .down{
-    
     display: block;
     background: gray;
     padding: 5px;
+}
+
+.second{
+    display: none;
+}
+
+.down:hover .second{
+    display: block;
+    position: relative;
+    background: gray;
+    border: 1px black solid;
 }
